@@ -10,7 +10,7 @@ class Anagram
     
     word_array.each do |word|
       splitted_word = word.split('')
-      if split_word.sort! = splitted_word.sort!
+      if split_word.sort = splitted_word.sort
         word
       end
     end
